@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Century.WebUI", "Century.WebUI\Century.WebUI.xproj", "{2D3845F6-142E-4A34-8D3A-5E76F5CD82B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{2D563C4C-5B79-4435-A7DA-5F239672B399}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E8B37DFC-D550-4CC8-9144-CCA3A08E9A0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C322AB61-7B1E-4FF4-A426-0325DB9AC14D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Century.Services.IdentityService", "Services\Century.Services.IdentityService\Century.Services.IdentityService.xproj", "{6669735C-7FA1-4D8E-94CB-377F5F09661D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D3845F6-142E-4A34-8D3A-5E76F5CD82B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3845F6-142E-4A34-8D3A-5E76F5CD82B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3845F6-142E-4A34-8D3A-5E76F5CD82B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3845F6-142E-4A34-8D3A-5E76F5CD82B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6669735C-7FA1-4D8E-94CB-377F5F09661D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6669735C-7FA1-4D8E-94CB-377F5F09661D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6669735C-7FA1-4D8E-94CB-377F5F09661D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6669735C-7FA1-4D8E-94CB-377F5F09661D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6669735C-7FA1-4D8E-94CB-377F5F09661D} = {E8B37DFC-D550-4CC8-9144-CCA3A08E9A0E}
+	EndGlobalSection
+EndGlobal

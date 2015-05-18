@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "Century.WebUI"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-Century.WebUI-1a5caaf0-f48f-4b29-a5e3-6b0054d13c2c;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
