@@ -4671,7 +4671,7 @@
             "System.Reflection.Extensions": "4.0.0-beta-22816",
             "System.Runtime.InteropServices": "4.0.20-beta-22816",
             "System.Threading": "4.0.10-beta-22816",
-            "System.Net.Sockets": "4.0.0-beta-22816",
+            
             "System.Collections": "4.0.10-beta-22816",
             "Microsoft.Win32.Registry": "4.0.0-beta-22816"
           },

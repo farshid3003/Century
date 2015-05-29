@@ -1,10 +1,10 @@
 {
   "AppSettings": {
-    "SiteTitle": "Century.WebUI"
+    "SiteTitle": "Looking 4 Contract"
   },
   "Data": {
     "DefaultConnection": {
-      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-Century.WebUI-1a5caaf0-f48f-4b29-a5e3-6b0054d13c2c;Trusted_Connection=True;MultipleActiveResultSets=true"
+      "ConnectionString": "Server=tcp:acimkdtbba.database.windows.net,1433;Database=contractdb;User ID=farshid@acimkdtbba;Password=pretty3003.;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     }
   }
 }

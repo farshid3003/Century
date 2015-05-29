@@ -7,16 +7,21 @@
         "EntityFramework.InMemory": "7.0.0-*",
 
         "Kestrel": "1.0.0-*",
-        "Microsoft.AspNet.Diagnostics": "1.0.0-*",
-        "Microsoft.AspNet.Mvc": "6.0.0-*",
-        "Microsoft.AspNet.Authentication.Cookies": "1.0.0-*",
-        "Microsoft.AspNet.Authentication.Google": "1.0.0-*",
-        "Microsoft.AspNet.Authentication.OAuthBearer": "1.0.0-*",
-        "Microsoft.AspNet.Authentication.Twitter": "1.0.0-*",
-        "Microsoft.AspNet.Session": "1.0.0-*",
-        "Microsoft.AspNet.Server.IIS": "1.0.0-*",
-        "Microsoft.AspNet.Server.WebListener": "1.0.0-*",
-        "Microsoft.AspNet.StaticFiles": "1.0.0-*",
+        //"Microsoft.AspNet.Diagnostics": "1.0.0-*",
+        //"Microsoft.AspNet.Mvc": "6.0.0-*",
+        //"Microsoft.AspNet.Authentication.Cookies": "1.0.0-*",
+        //"Microsoft.AspNet.Authentication.Google": "1.0.0-*",
+        //"Microsoft.AspNet.Authentication.OAuthBearer": "1.0.0-*",
+        //"Microsoft.AspNet.Authentication.Twitter": "1.0.0-*",
+        //"Microsoft.AspNet.Session": "1.0.0-*",
+        //"Microsoft.AspNet.Server.IIS": "1.0.0-*",
+        //"Microsoft.AspNet.Server.WebListener": "1.0.0-*",
+        //"Microsoft.AspNet.StaticFiles": "1.0.0-*",
+
+          "Microsoft.AspNet.Mvc": "6.0.0-beta4",
+    "Microsoft.AspNet.Server.IIS": "1.0.0-beta4",
+    "Microsoft.AspNet.Server.WebListener": "1.0.0-beta4",
+      "Microsoft.AspNet.StaticFiles": "1.0.0-beta4",
 
         "Microsoft.Framework.Logging": "1.0.0-*",
         "Microsoft.Framework.Logging.Console": "1.0.0-*",
@@ -27,22 +32,14 @@
     },
 
     "commands": {
-        "kestrel": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://localhost:8526",
-        "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:8526"
+        
+        "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5001"
     },
 
     "frameworks": {
         "dnx451": {
-            "dependencies": {
-                "Microsoft.AspNet.Owin": "1.0.0-*",
-                "Microsoft.Owin": "3.0.0",
-                "NWebsec.Owin": "1.0.0"
-            }
         },
         "dnxcore50": {
-            "dependencies": {
-                "System.Linq": "4.0.0-beta-*"
-            }
         }
     },
 

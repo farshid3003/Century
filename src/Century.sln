@@ -11,12 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C322AB61-7B1E-4FF4-A426-0325DB9AC14D}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Century.Services.IdentityService", "Services\Century.Services.IdentityService\Century.Services.IdentityService.xproj", "{6669735C-7FA1-4D8E-94CB-377F5F09661D}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Security.OpenIdConnect.Extensions", "Framework\AspNet.Security.OpenIdConnect.Extensions\AspNet.Security.OpenIdConnect.Extensions.xproj", "{BA895C47-20DA-4A21-924D-5E5768055359}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Security.OpenIdConnect.Server", "Framework\AspNet.Security.OpenIdConnect.Server\AspNet.Security.OpenIdConnect.Server.xproj", "{0512E28E-343F-412A-8ADC-0256E07D78DD}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76943ACF-BFB4-43F6-8984-A612ABB3C1D3}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
@@ -32,25 +26,8 @@ Global
 		{2D3845F6-142E-4A34-8D3A-5E76F5CD82B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D3845F6-142E-4A34-8D3A-5E76F5CD82B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D3845F6-142E-4A34-8D3A-5E76F5CD82B2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6669735C-7FA1-4D8E-94CB-377F5F09661D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6669735C-7FA1-4D8E-94CB-377F5F09661D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6669735C-7FA1-4D8E-94CB-377F5F09661D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6669735C-7FA1-4D8E-94CB-377F5F09661D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA895C47-20DA-4A21-924D-5E5768055359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA895C47-20DA-4A21-924D-5E5768055359}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA895C47-20DA-4A21-924D-5E5768055359}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA895C47-20DA-4A21-924D-5E5768055359}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0512E28E-343F-412A-8ADC-0256E07D78DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0512E28E-343F-412A-8ADC-0256E07D78DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0512E28E-343F-412A-8ADC-0256E07D78DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0512E28E-343F-412A-8ADC-0256E07D78DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{6669735C-7FA1-4D8E-94CB-377F5F09661D} = {E8B37DFC-D550-4CC8-9144-CCA3A08E9A0E}
-		{BA895C47-20DA-4A21-924D-5E5768055359} = {2D563C4C-5B79-4435-A7DA-5F239672B399}
-		{0512E28E-343F-412A-8ADC-0256E07D78DD} = {2D563C4C-5B79-4435-A7DA-5F239672B399}
 	EndGlobalSection
 EndGlobal

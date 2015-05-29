@@ -8,29 +8,29 @@ using System.Threading.Tasks;
 
 namespace Century.Services.IdentityService.Extensions
 {
-    public static class HttpContextExtensions
-    {
-        public static IEnumerable<AuthenticationDescription> GetExternalProviders(this HttpContext context)
-        {
-            if (context == null)
-            {
-                throw new ArgumentNullException(nameof(context));
-            }
-            return from description in context.Authentication.GetAuthenticationSchemes()
-                   where !string.IsNullOrWhiteSpace(description.Caption)
-                   select description;
-        }
+    //public static class HttpContextExtensions
+    //{
+    //    public static IEnumerable<AuthenticationDescription> GetExternalProviders(this HttpContext context)
+    //    {
+    //        if (context == null)
+    //        {
+    //            throw new ArgumentNullException(nameof(context));
+    //        }
+    //        return from description in context.Authentication.GetAuthenticationSchemes()
+    //               where !string.IsNullOrWhiteSpace(description.Caption)
+    //               select description;
+    //    }
 
-        public static bool IsProviderSupported(this HttpContext context, string provider)
-        {
-            if (context == null)
-            {
-                throw new ArgumentNullException(nameof(context));
-            }
+    //    public static bool IsProviderSupported(this HttpContext context, string provider)
+    //    {
+    //        if (context == null)
+    //        {
+    //            throw new ArgumentNullException(nameof(context));
+    //        }
 
-            return (from description in context.GetExternalProviders()
-                    where string.Equals(description.AuthenticationScheme, provider, StringComparison.OrdinalIgnoreCase)
-                    select description).Any();
-        }
-    }
+    //        return (from description in context.GetExternalProviders()
+    //                where string.Equals(description.AuthenticationScheme, provider, StringComparison.OrdinalIgnoreCase)
+    //                select description).Any();
+    //    }
+    //}
 }
